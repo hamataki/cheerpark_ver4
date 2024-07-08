@@ -23,10 +23,10 @@ PW: 〇〇〇〇〇〇〇〇
 4.funcs.phpでDB接続関数とその他関数を作成
  
 5.insert.phpでDBに保存、今回は写真のアップロードに初挑戦
-[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7
+-[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7
 
 6.list.phpに写真を表示、base64使用
-取得した画像バイナリデータをbase64で変換して表示
+-取得した画像バイナリデータをbase64で変換して表示
 
 以下、やりたかったこと
 7.
@@ -37,6 +37,6 @@ PW: 〇〇〇〇〇〇〇〇
 
 
 ⑦質問・疑問・感想、シェアしたいこと等なんでも
-[感想]　
-[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7,
+・[感想]　
+・[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7,
 ファイルアップロードおまじない：https://mugenup-tech.hatenadiary.com/entry/2014/08/28/100910,
