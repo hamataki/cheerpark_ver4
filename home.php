@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/player-style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Login</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/hat.jpg" />
+
+    <!-- 絵文字 -->
+    <script src="https://kit.fontawesome.com/77e6d61b62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-default">今日、伝えたいこと！</nav>
+            <div class="set_group">
+                <i class="fa-solid fa-gear">設定</i>
+            </div>
+        </header>
+
+        <div class="main">
+            <form action="insert.php" method="post" enctype="multipart/form-data">
+                <div class="input_file">
+                    <label id="label_imgfile" for="imgfile">動画を選択</label>
+                    <input accept="image/*" id="imgfile" type="file" name="imgfile">
+                    <div class="preview"></div>
+                </div>
+
+                <div class="note-group">
+                    <label for="note">Note</label>
+                    <textarea id="note" class="note-control" name="note"></textarea>
+                </div>
+
+                <div class="genre_group">
+                    <select id="genre_select" name="genre">
+                        <option value="">ジャンルを選択して下さい</option>
+                        <option value="プレー集">プレー集</option>
+                        <option value="トレーニング">トレーニング</option>
+                        <option value="インタビュー">試合後インタビュー</option>
+                        <option value="食">食</option>
+                        <option value="海外文化">海外文化</option>
+                        <option value="移籍関連">移籍関連</option>
+                        <option value="その他">その他</option>
+                    </select>
+                </div>
+
+                <div class="post-group">
+                    <button type="post" class="btn_post">
+                        <i class="fa-solid fa-circle-plus">投稿</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="base_group">
+            <div class="home_group">
+                <i class="fa-solid fa-house">ホーム</i>
+            </div>
+            <div class="analysis_group">
+                <i class="fa-solid fa-magnifying-glass-chart">分析</i>
+            </div>
+            <div class="live_group">
+                <i class="fa-solid fa-record-vinyl">Live</i>
+            </div>
+            <div class="mail_group">
+                <i class="fa-solid fa-envelope">メール</i>
+            </div>
+            <div class="list_group">
+                <i class="fa-solid fa-list">一覧</i>
+            </div>
+        </div>
+
+        <footer>
+            Copyright © 2024 CheerParK
+            <i class="fa-brands fa-x-twitter"></i>
+            <!-- <a href="https://gsacademy.jp/"><img src="img/hat.jpg" class="aicon" alt=""></a> -->
+        </footer>
+        <!-- <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/player-script.js"></script> -->
+    </div>
+</body>
+
+</html>
