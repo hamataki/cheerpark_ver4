@@ -1,14 +1,14 @@
 # cheerpark_ver4
-①課題番号-プロダクト名
+①課題番号-プロダクト名　　
 cheerpark_ver4
 
-②課題内容（どんな作品か）
+②課題内容（どんな作品か）　　
 ログイン機能＋
 
 ③DEMO
 デプロイしている場合はURLを記入（任意） https://cheerpark.sakura.ne.jp/cheerpark_ver4/index.php
 
-④作ったアプリケーション用のIDまたはPasswordがある場合
+④作ったアプリケーション用のIDまたはPasswordがある場合　　
 ID: 〇〇〇〇〇〇〇〇
 PW: 〇〇〇〇〇〇〇〇
 
@@ -22,10 +22,10 @@ PW: 〇〇〇〇〇〇〇〇
 
 4.funcs.phpでDB接続関数とその他関数を作成
  
-5.insert.phpでDBに保存、今回は写真のアップロードに初挑戦
+5.insert.phpでDBに保存、今回は写真のアップロードに初挑戦　　
 -[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7
 
-6.list.phpに写真を表示、base64使用
+6.list.phpに写真を表示、base64使用　　
 -取得した画像バイナリデータをbase64で変換して表示
 
 以下、やりたかったこと
@@ -36,7 +36,7 @@ PW: 〇〇〇〇〇〇〇〇
 9.
 
 
-⑦質問・疑問・感想、シェアしたいこと等なんでも
-・[感想]　
-・[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7,
+⑦質問・疑問・感想、シェアしたいこと等なんでも　　
+・[感想]　　
+・[参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7,　　
 ファイルアップロードおまじない：https://mugenup-tech.hatenadiary.com/entry/2014/08/28/100910,
