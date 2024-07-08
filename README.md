@@ -25,7 +25,8 @@ PW: 〇〇〇〇〇〇〇〇
 5.insert.phpでDBに保存、今回は写真のアップロードに初挑戦
 [参照]　画像保存：https://zenn.dev/zennzenn_ok/articles/b910505b811cd7
 
-6.list.phpに写真を表示
+6.list.phpに写真を表示、base64使用
+取得した画像バイナリデータをbase64で変換して表示
 
 以下、やりたかったこと
 7.

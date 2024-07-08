@@ -1,14 +1,14 @@
 <?php
 require_once('funcs.php');
 
-//1. DB接続します
+// DB接続します
 $pdo = db_conn();
 
-//２．データ取得SQL作成
+// データ取得SQL作成
 $stmt = $pdo->prepare("SELECT * FROM cheerpark_an_table4");
 $status = $stmt->execute();
 
-//３．データ表示
+// データ表示
 $view = "";
 if ($status == false) {
     //execute（SQL実行時にエラーがある場合）
@@ -18,10 +18,15 @@ if ($status == false) {
     //Selectデータの数だけ自動でループしてくれる
     //FETCH_ASSOC=http://php.net/manual/ja/pdostatement.fetch.php
     while ($result = $stmt->fetch(PDO::FETCH_ASSOC)) {
+
+        // 取得した画像バイナリデータをbase64で変換!!!
+        $imgfile = "data:image/jpeg;base64," . base64_encode($result["imgfile"]);
+
         $view .= '<ul>';
         $view .= '<li>';
         $view .= '<a href="detail.php?id=' . $result['id'] . '">';
-        $view .= $result['date'] . $result['imgfile'];
+        $view .= $result['date'];
+        $view .= '<img src="' . $imgfile . '" alt="uploaded image">';
         $view .= '</a>';
 
         $view .= '<a href="delete.php?id=' . $result['id'] . '">';
