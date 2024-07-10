@@ -25,17 +25,14 @@
         <div class="main">
             <!-- lLOGINogin_act.php は認証処理用のPHPです。 -->
             <form name="form1" action="login_act.php" method="post">
-                ID:<input type="text" name="lid" />
-                PW:<input type="password" name="lpw" />
+                <input type="text" placeholder="ID" name="lid" />
+                <input type="password" placeholder="PW" name="lpw" />
                 <input type="submit" value="LOGIN" />
             </form>
         </div>
 
-        <footer>
-            Copyright © 2024 CheerParK
-            <i class="fa-brands fa-x-twitter"></i>
-            <!-- <a href="https://gsacademy.jp/"><img src="img/hat.jpg" class="aicon" alt=""></a> -->
-        </footer>
+        <?php include("footer.html"); ?>
+
         <!-- <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/player-script.js"></script> -->
     </div>

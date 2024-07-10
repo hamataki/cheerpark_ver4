@@ -13,8 +13,8 @@ $pdo = db_conn();
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 } else {
     if (isset($_FILES['imgfile']) && $_FILES['imgfile']['error'] === UPLOAD_ERR_OK) {
-        
-        //['gazou']['tmp_name']は画像のパス
+
+        //['imgfile']['tmp_name']は画像のパス
         //file_get_contents() は、指定したファイルの内容全体を文字列として読み込むPHP関数
         $content = file_get_contents($_FILES['imgfile']['tmp_name']);
 
@@ -36,8 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         if ($status === false) {
             sql_error($stmt);
         } else {
-            //select.phpへリダイレクト
-            redirect('list.php');
+            //home.phpへリダイレクト
+            redirect('home.php');
         };
     };
 };
