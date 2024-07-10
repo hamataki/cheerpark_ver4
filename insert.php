@@ -1,5 +1,7 @@
 <?php
+session_start();
 require_once('funcs.php');
+loginCheck();
 
 // POSTデータ取得
 $imgfile = $_FILES['imgfile'];

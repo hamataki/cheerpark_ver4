@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/player-style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Login</title>
 
     <!-- Favicon -->

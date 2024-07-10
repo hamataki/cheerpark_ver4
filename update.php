@@ -1,6 +1,9 @@
 <?php
-// DB接続します
+session_start();
 require_once('funcs.php');
+loginCheck();
+
+// DB接続します
 $pdo = db_conn();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

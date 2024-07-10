@@ -1,5 +1,7 @@
 <?php
+session_start();
 require_once('funcs.php');
+loginCheck();
 
 // DB接続します
 $pdo = db_conn();
@@ -49,6 +51,7 @@ if ($status == false) {
     <!-- <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/player-style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Home</title>
 
     <!-- Favicon -->

@@ -1,7 +1,7 @@
 <?php
-// session_start();
+session_start();
 require_once('funcs.php');
-// loginCheck();
+loginCheck();
 
 $id = $_GET['id']; //?id~**を受け取る
 $pdo = db_conn();
@@ -28,7 +28,8 @@ if ($status == false) {
     <!-- <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/player-style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <title>データ更新</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Edit</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/hat.jpg" />

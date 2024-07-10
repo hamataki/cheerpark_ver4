@@ -1,7 +1,8 @@
 <?php
 session_start();
 require_once('funcs.php');
-// loginCheck();
+loginCheck();
+
 // POSTデータ取得
 $id = $_GET['id'];
 
