@@ -49,7 +49,7 @@ if ($status == false) {
     <!-- <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/player-style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <title>投稿一覧</title>
+    <title>Home</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/hat.jpg" />
@@ -61,7 +61,7 @@ if ($status == false) {
 <body>
     <div class="wrapper">
         <header>
-            <nav class="navbar navbar-default">投稿一覧</nav>
+            <nav class="navbar navbar-default"><i class="fa-solid fa-house">ホーム</i></nav>
             <div class="search_group">
                 <select id="genre_select">
                     <option value="all">ALL</option>
@@ -74,6 +74,9 @@ if ($status == false) {
                     <option value="その他">その他</option>
                 </select>
             </div>
+            <div class="set_group">
+                <i class="fa-solid fa-gear">設定</i>
+            </div>
         </header>
 
         <div class="main">
@@ -82,8 +85,8 @@ if ($status == false) {
             </div>
         </div>
 
-        <?php include("base.html"); ?>
-        <?php include("footer.html"); ?>
+        <?php include("html/base.html"); ?>
+        <?php include("html/footer.html"); ?>
 
         <!-- <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/player-script.js"></script> -->

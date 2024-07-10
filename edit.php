@@ -83,8 +83,8 @@ if ($status == false) {
             </form>
         </div>
 
-        <?php include("base.html"); ?>
-        <?php include("footer.html"); ?>
+        <?php include("html/base.html"); ?>
+        <?php include("html/footer.html"); ?>
 
         <!-- <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/player-script.js"></script> -->

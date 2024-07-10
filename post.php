@@ -7,7 +7,7 @@
     <!-- <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/player-style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <title>Login</title>
+    <title>Post</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/hat.jpg" />
@@ -20,9 +20,6 @@
     <div class="wrapper">
         <header>
             <nav class="navbar navbar-default">今日はなにを伝えたい？</nav>
-            <div class="set_group">
-                <i class="fa-solid fa-gear">設定</i>
-            </div>
         </header>
 
         <div class="main">
@@ -59,8 +56,8 @@
             </form>
         </div>
 
-        <?php include("base.html"); ?>
-        <?php include("footer.html"); ?>
+        <?php include("html/base.html"); ?>
+        <?php include("html/footer.html"); ?>
 
         <!-- <script src="js/jquery-2.1.3.min.js"></script>
         <script src="js/player-script.js"></script> -->

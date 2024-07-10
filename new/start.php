@@ -7,7 +7,7 @@
     <!-- <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/player-style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <title>Login</title>
+    <title>Start画面</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/hat.jpg" />
@@ -19,18 +19,16 @@
 <body>
     <div class="wrapper">
         <header>
-            <nav class="navbar navbar-default">LOGIN</nav>
+            <nav class="navbar navbar-default">START</nav>
         </header>
 
         <div class="main">
-            <!-- lLOGINogin_act.php は認証処理用のPHPです。 -->
-            <form name="form1" action="login_act.php" method="post">
-                <input type="text" placeholder="ID" name="lid" />
-                <input type="password" placeholder="PW" name="lpw" />
-                <input type="submit" value="LOGIN" />
-            </form>
+            <div class="button-area">
+                <a onclick="location.href='./login_player.php'" class="btn_player">Plaeyer</a>
+                <a onclick="location.href='./login_sporter.php'" class="btn_sporter">Sporter</a>
+            </div>
         </div>
-
+        
         <?php include("html/footer.html"); ?>
 
         <!-- <script src="js/jquery-2.1.3.min.js"></script>
