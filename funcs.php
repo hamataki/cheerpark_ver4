@@ -47,4 +47,4 @@ function loginCheck()
 
     session_regenerate_id(true);
     $_SESSION['chk_ssid'] = session_id();
-}
+};
