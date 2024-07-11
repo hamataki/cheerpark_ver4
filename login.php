@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <!-- <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/player-style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Login</title>
 
@@ -18,7 +16,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="text-center">
         <header>
             <nav class="navbar navbar-default">LOGIN</nav>
         </header>
@@ -26,10 +24,11 @@
         <div class="main">
             <!-- lLOGINogin_act.php は認証処理用のPHPです。 -->
             <form name="form1" action="login_act.php" method="post">
-                <input type="text" placeholder="ID" name="lid" />
-                <input type="password" placeholder="PW" name="lpw" />
-                <input type="submit" value="LOGIN" />
+                <input type="text" placeholder="ユーザーID" name="lid" class="m-1 border rounded-md"/>
+                <input type="password" placeholder="PW" name="lpw" class="m-1 border rounded-md"/>
+                <input type="submit" value="LOGIN" class="m-1 p-0.5 border rounded-md"/>
             </form>
+            <a href="start.php"><button type="submit" class="m-1 p-0.5 border rounded-md">Sign Up</button></a>
         </div>
 
         <?php include("html/footer.html"); ?>

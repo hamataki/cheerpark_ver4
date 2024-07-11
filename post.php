@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <!-- <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/player-style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Post</title>
 
@@ -18,7 +16,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="text-center">
         <header>
             <nav class="navbar navbar-default">今日はなにを伝えたい？</nav>
         </header>

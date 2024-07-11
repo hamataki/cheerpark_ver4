@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <!-- <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/player-style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Start画面</title>
 
     <!-- Favicon -->
@@ -17,15 +16,15 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="text-center">
         <header>
             <nav class="navbar navbar-default">START</nav>
         </header>
 
         <div class="main">
             <div class="button-area">
-                <a onclick="location.href='./login_player.php'" class="btn_player">Plaeyer</a>
-                <a onclick="location.href='./login_sporter.php'" class="btn_sporter">Sporter</a>
+                <a href="./signup.php"><button type="submit" class="m-1 p-0.5 border rounded-md">Plaeyer</button></a>
+                <a onclick="location.href='./.php'"><button type="submit" class="m-1 p-0.5 border rounded-md">Sporter</button></a>
             </div>
         </div>
         

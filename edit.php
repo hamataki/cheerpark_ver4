@@ -25,9 +25,7 @@ if ($status == false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <!-- <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/player-style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Edit</title>
 
@@ -39,7 +37,7 @@ if ($status == false) {
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="text-center">
         <header>
             <div class="navbar-header"><a class="navbar-brand" href="home.php">ホーム</a></div>
         </header>

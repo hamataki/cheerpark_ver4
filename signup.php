@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sign Up</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/hat.jpg" />
+
+    <!-- 絵文字 -->
+    <script src="https://kit.fontawesome.com/77e6d61b62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <header>
+            <nav class="navbar navbar-default">Sign Up</nav>
+        </header>
+
+        <div class="main">
+            <form method="POST" action="join.php">
+                <div class="signup">
+                    <label>名前:<input type="text" name="name" placeholder="山田 太郎" class="m-1 border rounded-md"></label><br>
+                    <label>Email:<input type="text" name="email" placeholder="test@gmail.com" class="m-1 border rounded-md"></label><br>
+                    <label>ユーザーID:<input type="text" name="lid" placeholder="ID" class="m-1 border rounded-md"></label><br>
+                    <label>PW:<input type="password" name="lpw" placeholder="PW" class="m-1 border rounded-md"></label><br>
+                    <label><input type="hidden" name="kanri_flg"></label><br>
+                    <label><input type="hidden" name="life_flg"></label><br>
+
+                    <input type="submit" value="送信" class="m-1 p-0.5 border rounded-md">
+                </div>
+            </form>
+        </div>
+
+        <?php include("html/footer.html"); ?>
+
+        <!-- <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/player-script.js"></script> -->
+    </div>
+</body>
+
+</html>
