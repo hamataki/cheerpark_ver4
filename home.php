@@ -65,6 +65,9 @@ if ($status == false) {
     <div class="wrapper">
         <header>
             <nav class="navbar navbar-default"><i class="fa-solid fa-house">ホーム</i></nav>
+        </header>
+
+        <div class="bar_group">
             <div class="search_group">
                 <select id="genre_select">
                     <option value="all">ALL</option>
@@ -77,10 +80,11 @@ if ($status == false) {
                     <option value="その他">その他</option>
                 </select>
             </div>
+
             <div class="set_group">
-            <a href=""><i class="fa-solid fa-gear">設定</i></a>
+                <a href=""><i class="fa-solid fa-gear">設定</i></a>
             </div>
-        </header>
+        </div>
 
         <div class="main">
             <div>

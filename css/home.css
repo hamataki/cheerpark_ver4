@@ -4,13 +4,27 @@ header{
     width: 100%;
     min-width: 400px;
 }
+.search_group{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    min-width: 400px;
+    margin: 4px 0px;
+}
+.set_group{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    min-width: 400px;
+    margin: 4px 0px;
+}
 .main{
-    width: 100%;
+    width: 99%;
     min-width: 400px;
     margin: 12px;
 }
 ul{
-    padding: 4px;
+    padding: 0;
 }
 li{
     list-style: none;
