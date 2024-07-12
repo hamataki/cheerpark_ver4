@@ -7,12 +7,15 @@ header{
 .main{
     width: 100%;
     min-width: 400px;
-    margin: 16px;
+    margin: 12px;
+}
+ul{
+    padding: 4px;
+}
+li{
+    list-style: none;
 }
 img{
     max-width: 400px;
     max-height: 200px;
-}
-.list_view{
-    margin: 16px;
 }

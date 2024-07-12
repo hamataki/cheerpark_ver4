@@ -28,8 +28,10 @@ if ($status == false) {
         $view .= '<li>';
         $view .= '<a href="edit.php?id=' . $result['id'] . '">';
         $view .= $result['date'] . ' # ' . $result['genre'];
+        $view .= '<br>';
         $view .= '<img src="' . $imgfile . '" alt="uploaded image" class="">';
         $view .= '</a>';
+        $view .= '<br>';
 
         $view .= '<a href="delete.php?id=' . $result['id'] . '">';
         $view .= '<i class="fa-solid fa-trash"></i>';
@@ -76,7 +78,7 @@ if ($status == false) {
                 </select>
             </div>
             <div class="set_group">
-                <i class="fa-solid fa-gear">設定</i>
+            <a href=""><i class="fa-solid fa-gear">設定</i></a>
             </div>
         </header>
 
