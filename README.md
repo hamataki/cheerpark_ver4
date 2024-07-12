@@ -9,8 +9,8 @@ cheerpark_ver4
 デプロイしている場合はURLを記入（任意） https://cheerpark.sakura.ne.jp/cheerpark_ver4/index.php  
 
 ④作ったアプリケーション用のIDまたはPasswordがある場合    
-ID: 〇〇〇〇〇〇〇〇
-PW: 〇〇〇〇〇〇〇〇  
+ID: hamataki
+PW: cheer  
 sign upしてもらえれば誰でも入れます。試してみてください。  
 
 ⑤工夫した点・こだわった点  
