@@ -6,7 +6,7 @@ cheerpark_ver4
 ログイン機能＋  
 
 ③DEMO  
-デプロイしている場合はURLを記入（任意） https://cheerpark.sakura.ne.jp/cheerpark_ver4/index.php  
+デプロイしている場合はURLを記入（任意） https://cheerpark.sakura.ne.jp/cheerpark_ver4/login.php  
 
 ④作ったアプリケーション用のIDまたはPasswordがある場合    
 ID: hamataki
