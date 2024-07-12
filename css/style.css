@@ -1,0 +1,6 @@
+.wrapper{
+    text-align: center;
+    min-height:96vh;
+    position: relative;/*←相対位置*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}

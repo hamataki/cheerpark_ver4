@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+}
+.main{
+    width: 100%;
+    min-width: 400px;
+}
+form{
+    margin: 16px;
+}
+.genre_group{
+    margin: 4px;
+}
+.input_imffile{
+    margin: 16px;
+}
+.note-group{
+    margin: 4px;
+}
+.post-group{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+    position: absolute;
+    bottom: +50px;
+    padding-bottom: 16px;
+}

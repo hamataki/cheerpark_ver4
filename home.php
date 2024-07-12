@@ -28,7 +28,7 @@ if ($status == false) {
         $view .= '<li>';
         $view .= '<a href="edit.php?id=' . $result['id'] . '">';
         $view .= $result['date'] . ' # ' . $result['genre'];
-        $view .= '<img src="' . $imgfile . '" alt="uploaded image">';
+        $view .= '<img src="' . $imgfile . '" alt="uploaded image" class="m-auto">';
         $view .= '</a>';
 
         $view .= '<a href="delete.php?id=' . $result['id'] . '">';
@@ -48,8 +48,8 @@ if ($status == false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
     <title>Home</title>
 
     <!-- Favicon -->
@@ -60,7 +60,7 @@ if ($status == false) {
 </head>
 
 <body>
-    <div class="text-center">
+    <div class="wrapper">
         <header>
             <nav class="navbar navbar-default"><i class="fa-solid fa-house">ホーム</i></nav>
             <div class="search_group">

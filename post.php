@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/post.css" rel="stylesheet">
     <title>Post</title>
 
     <!-- Favicon -->
@@ -16,24 +16,13 @@
 </head>
 
 <body>
-    <div class="text-center">
+    <div class="wrapper">
         <header>
             <nav class="navbar navbar-default">今日はなにを伝えたい？</nav>
         </header>
 
         <div class="main">
             <form action="insert.php" method="post" enctype="multipart/form-data">
-                <div class="input_file">
-                    <label id="label_imgfile" for="imgfile">動画を選択</label>
-                    <input accept="image/*" id="imgfile" type="file" name="imgfile" required>
-                    <div class="preview"></div>
-                </div>
-
-                <div class="note-group">
-                    <label for="note">Note</label>
-                    <textarea id="note" class="note-control" name="note" required></textarea>
-                </div>
-
                 <div class="genre_group">
                     <select id="genre_select" name="genre" required>
                         <option value="">ジャンルを選択して下さい</option>
@@ -45,6 +34,18 @@
                         <option value="移籍関連">移籍関連</option>
                         <option value="その他">その他</option>
                     </select>
+                </div>
+
+
+                <div class="input_imffile">
+                    <label id="label_imgfile" for="imgfile">動画を選択</label>
+                    <input accept="image/*" id="imgfile" type="file" name="imgfile" required>
+                    <div class="preview"></div>
+                </div>
+
+                <div class="note-group">
+                    <label for="note" class="note-label">Note</label><br>
+                    <textarea id="note" class="note-control" name="note" required></textarea>
                 </div>
 
                 <div class="post-group">

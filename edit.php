@@ -26,7 +26,6 @@ if ($status == false) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Edit</title>
 
     <!-- Favicon -->
@@ -37,7 +36,7 @@ if ($status == false) {
 </head>
 
 <body>
-    <div class="text-center">
+    <div class="wrapper">
         <header>
             <div class="navbar-header"><a class="navbar-brand" href="home.php">ホーム</a></div>
         </header>

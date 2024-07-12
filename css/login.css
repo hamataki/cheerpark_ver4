@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+}
+.main{
+    width: 100%;
+    min-width: 400px;
+}
+form{
+    margin: 16px;
+}
+.input_lid{
+    margin: 4px;
+}
+.input_lpw{
+    margin: 4px;
+}
+.btn_login{
+    margin: 4px;
+}
+.btn_signup{
+    margin: 4px;
+}

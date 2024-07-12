@@ -1,0 +1,23 @@
+.base{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+    position: absolute;
+    bottom: +24px;
+}
+.home_group{
+    margin: 4px;
+}
+.analysis_group{
+    margin: 4px;
+}
+.live_group{
+    margin: 4px;
+}
+.mail_group{
+    margin: 4px;
+}
+.post_group{
+    margin: 4px;
+}

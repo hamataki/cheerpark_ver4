@@ -1,4 +1,10 @@
 <?php
+session_start();
+require_once('funcs.php');
+loginCheck();
+?>
+
+<?php
 // POSTデータ取得
 $name   = $_POST['name'];
 $email  = $_POST['email'];

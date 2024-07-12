@@ -1,3 +1,9 @@
+<?php
+session_start();
+require_once('funcs.php');
+loginCheck();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -5,7 +11,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Start画面</title>
 
     <!-- Favicon -->
@@ -16,15 +21,15 @@
 </head>
 
 <body>
-    <div class="text-center">
+    <div class="wrapper">
         <header>
             <nav class="navbar navbar-default">START</nav>
         </header>
 
         <div class="main">
             <div class="button-area">
-                <a href="./signup.php"><button type="submit" class="m-1 p-0.5 border rounded-md">Plaeyer</button></a>
-                <a onclick="location.href='./.php'"><button type="submit" class="m-1 p-0.5 border rounded-md">Sporter</button></a>
+                <a href="./signup.php"><button type="submit" class="">Plaeyer</button></a>
+                <a onclick="location.href='./.php'"><button type="submit" class="">Sporter</button></a>
             </div>
         </div>
         
