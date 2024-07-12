@@ -28,7 +28,7 @@ if ($status == false) {
         $view .= '<li>';
         $view .= '<a href="edit.php?id=' . $result['id'] . '">';
         $view .= $result['date'] . ' # ' . $result['genre'];
-        $view .= '<img src="' . $imgfile . '" alt="uploaded image" class="m-auto">';
+        $view .= '<img src="' . $imgfile . '" alt="uploaded image" class="">';
         $view .= '</a>';
 
         $view .= '<a href="delete.php?id=' . $result['id'] . '">';
