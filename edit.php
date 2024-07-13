@@ -61,7 +61,7 @@ if ($status == false) {
 
                 <div class="input_imgfile">
                     <label id="label_imgfile" for="imgfile">動画を選択</label>
-                    <input type="file" name="imgfile" id="picture" accept="image/*" class="">
+                    <input type="file" name="imgfile" id="imgfile" accept="image/*" class="">
                 </div>
 
                 <div class="output_file">
