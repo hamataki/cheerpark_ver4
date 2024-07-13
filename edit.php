@@ -25,7 +25,8 @@ if ($status == false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/edit.css" rel="stylesheet">
     <title>Edit</title>
 
     <!-- Favicon -->
@@ -45,7 +46,20 @@ if ($status == false) {
             <form method="POST" action="update.php" enctype="multipart/form-data">
                 <legend>[編集]</legend>
 
-                <div class="input_file">
+                <div class="genre_group">
+                    <select id="genre" name="genre" required>
+                        <option value="">ジャンルを選択して下さい</option>
+                        <!-- ジャンルリスト -->
+                        <?php
+                        $genres = ["プレー集", "トレーニング", "試合後インタビュー", "食", "海外文化", "移籍関連", "その他"];
+                        foreach ($genres as $genre) {
+                            $selected = $row['genre'] == $genre ? 'selected' : '';
+                            echo "<option value='$genre' $selected>$genre</option>";
+                        } ?>
+                    </select><br>
+                </div>
+
+                <div class="input_imgfile">
                     <label id="label_imgfile" for="imgfile">動画を選択</label>
                     <input type="file" name="imgfile" id="picture" accept="image/*" class="">
                 </div>
@@ -64,18 +78,7 @@ if ($status == false) {
                     <textArea name="note" rows="4" cols="40"><?= $row['note'] ?></textArea><br>
                 </div>
 
-                <div class="genre_group">
-                    <select id="genre" name="genre" required>
-                        <option value="">ジャンルを選択して下さい</option>
-                        <!-- ジャンルリスト -->
-                        <?php
-                        $genres = ["プレー集", "トレーニング", "試合後インタビュー", "食", "海外文化", "移籍関連", "その他"];
-                        foreach ($genres as $genre) {
-                            $selected = $row['genre'] == $genre ? 'selected' : '';
-                            echo "<option value='$genre' $selected>$genre</option>";
-                        } ?>
-                    </select><br>
-                </div>
+
                 <input type="submit" value="送信">
                 <input type="hidden" name="id" value="<?= $id ?>">
             </form>

@@ -37,7 +37,7 @@
                 </div>
 
 
-                <div class="input_imffile">
+                <div class="input_imgfile">
                     <label id="label_imgfile" for="imgfile">動画を選択</label>
                     <input accept="image/*" id="imgfile" type="file" name="imgfile" required>
                     <div class="preview"></div>

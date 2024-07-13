@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+}
+#preview{
+    max-width: 400px;
+    max-height: 200px;
+}
+.genre_group{
+    margin: 4px;
+}
+.input_imgfile{
+    margin: 16px;
+}
